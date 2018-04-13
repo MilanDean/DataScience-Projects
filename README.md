@@ -3,7 +3,7 @@ This is a compilation of small projects I developed related to data analytics an
 Please **Note**: This is a work in progress, and I will continually update the scripts I have added, as well as new ones as I program more.
 
 # [911 Calls](https://github.com/MilanDean/DataScience-Projects/blob/master/911%20Calls/DataCleaning911CallsCapstoneProject.ipynb)
-My first capstone project, *ever*. This was completed as a requirement in order to continue to the second portion of my data science bootcamp, which focused solely on machine learning.
+My first capstone project related to data science, *ever*. This was completed a couple months back as a requirement in order to continue to the second portion of my data science bootcamp, which focused solely on machine learning.
 This small project highlights what I have learned about data cleaning, visualization, and problem solving in order to get the answers I'm looking for. 
 
 
