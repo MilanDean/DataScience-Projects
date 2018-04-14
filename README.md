@@ -15,7 +15,7 @@ I have also incorporated the PCA algorithm for dimensionality reduction, as a me
 The dataset can be found on [here](https://www.kaggle.com/uciml/pima-indians-diabetes-database) from Kaggle.com.
 
 
-# [Titanic Survival Prediction using Regression Analysis](https://github.com/MilanDean/DataScience-Projects/blob/master/Titanic%20Regression%20Analysis/Data%20Cleaning%20and%20Titanic%20Survival%20Prediction.ipynb)
+# [Titanic Survival Prediction using Regression Analysis](https://github.com/MilanDean/DataScience-Projects/blob/master/Titanic%20Regression%20Analysis/Titanic%20Survival%20Prediction%20(Data%20Cleaning%20and%20Visualization).ipynb)
 This famous [dataset](https://www.kaggle.com/c/titanic) from Kaggle was used for a binary classification competition, and a very commonly used dataset for beginner-level
 machine learning use. Similarly to my 911 Calls dataset, this script highlights what I have learned about data cleaning, visualization, and logistic regression.
 The most important part of this dataset to me was learning how to organize my data in a way that makes it easier to manipulate in order to gather information about the sinking of the Titanic.
