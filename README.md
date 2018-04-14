@@ -11,7 +11,7 @@ This small project highlights what I have learned about data cleaning, visualiza
 # [Prediction of Diabetes](https://github.com/MilanDean/DataScience-Projects/blob/master/Prediction%20of%20Diabetes.ipynb)
 After comparing the features against themselves, there seems to be low correlation between features and predicting the development of diabetes.
 This is a script utilizing the Support Vector Machine (SVM) supervised learning algorithm in order to not only classify whether or not an individual will develop diabetes, but determine which parameter values will yield the highest accuracy.
-This also uses the PCA algorithm for dimensionality reduction, as a means of assisting the SVM algorithm by determining which features explain the largest amount of variance. 
+I have also incorporated the PCA algorithm for dimensionality reduction, as a means of assisting the SVM algorithm by determining which features explain the largest amount of variance, and removing the ones that explain very little variance. 
 The dataset can be found on [here](https://www.kaggle.com/uciml/pima-indians-diabetes-database) from Kaggle.com.
 
 
