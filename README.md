@@ -1,6 +1,6 @@
 # DataScience-Projects
 This is a compilation of small projects I developed related to data analytics and machine learning.
-Please **Note**: This is a work in progress, and I will continually update the scripts I have added, as well as new ones as I program more.
+Please **Note**: This is a work in progress that I update when I have free time, and this repository does not represent the entirety of my understanding of data analytics and machine learning.
 
 # [911 Calls](https://github.com/MilanDean/DataScience-Projects/blob/master/911%20Calls/DataCleaning911CallsCapstoneProject.ipynb)
 My first capstone project related to data science, *ever*. This was completed a while back as a requirement in order to continue to the second portion of my data science bootcamp, which focused solely on machine learning.
