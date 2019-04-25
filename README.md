@@ -1,7 +1,7 @@
 # DataScience-Projects
 This is a compilation of small projects I developed related to data analytics and machine learning.
 
-Please **Note**: This is a work in progress that I update when I have free time, and this repository does not represent the entirety of my understanding of data analytics and machine learning.
+**Note**: This is a work in progress that I update when I have free time, and this repository does not represent the entirety of my understanding of data analytics and machine learning. Projects are in order from most recent commit to first commit.
 
 # [Purchase Overlap Program](https://github.com/MilanDean/DataScience-Projects/blob/master/fastOverlap_purchases.py)
 Initially tasked with analyzing a client's sales funnel, this program was created as a result of additional business problems developed down the line. This program is simple and efficient, using list comprehension in O(n) time complexity to determine whether or not a unique ID is found in both sets. This in conjunction with the back-end of Shopify (eCommerce Platform), allows someone to determine whether or not a customer who is a first time buyer of product A ends up buying product B. Additionally, it can be also used for customer purchase overlap between any two products, returning or not.
