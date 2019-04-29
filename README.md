@@ -21,5 +21,4 @@ The most important part of this dataset to me was learning how to organize my da
 
 
 # [911 Calls](https://github.com/MilanDean/DataScience-Projects/blob/master/911%20Calls/DataCleaning911CallsCapstoneProject.ipynb)
-My first capstone project related to data science, *ever*. This was completed a while back as a requirement in order to continue to the second portion of my data science bootcamp, which focused solely on machine learning.
-This script presents my understanding of data cleaning, visualization, and problem solving.
+My first capstone project related to data science, *ever*. This was completed a while back as a requirement in order to continue to the second portion of my data science bootcamp. This notebook presents my understanding of data cleaning, visualization, and problem solving.
