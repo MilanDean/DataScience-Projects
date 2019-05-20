@@ -5,9 +5,7 @@ Created on Tue Apr  2 13:32:30 2019
 @author: Milan Dean
 """
 
-import numpy as np
 import pandas as pd
-import time
 
 try:
     data_one = input('Please enter the name of the CSV file containing first time buyers.')
@@ -27,13 +25,9 @@ def fast_overlap():
     
     column = input('\nPlease input the name of the column containing customer IDs')
     
-    print('\nCalculating total customers who have bought both products...')
-    time.sleep(1)
-    
-    set_df1 = set(np.array(df1[column]))
-    set_df2 = set(np.array(df2[column]))
-    
-    result = [value for value in set_df1 if value in set_df2]
+    set_df1 = set((df1[column]))
+    set_df2 = set((df2[column]))
+    result = set_df1.intersection(set_df2)
     
     percent = round((len(result)/len(df1[column]))*100, 2)    
     
