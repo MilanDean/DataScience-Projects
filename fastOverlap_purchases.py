@@ -48,7 +48,7 @@ class StartPage(tk.Frame):
         
         tk.Frame.__init__(self, parent)
         
-        label = tk.Label(self, text="Welcome to the Purchase Behavior Application!", font=('Verdana', 16))
+        label = tk.Label(self, text="Welcome to the Monkedia Purchase Behavior Application!", font=('Verdana', 16))
         label.place(x=115, y=150)
 
         button = ttk.Button(self, text="Purchase Analysis",
@@ -152,27 +152,6 @@ class PurchaseAnalysis(tk.Frame):
     def clear(self):
         #Ensures the result is destroyed when called - used on button click before changing frames.
         self.resultLabel.destroy()
-        
-        
-    def basket_askopenfile(self):
-    #Simply opens either a CSV or Excel file in the users directory and assigns to a variable.
-    
-        self.file = filedialog.askopenfilename(title = "Select file", 
-                                               filetypes = (("CSV Files","*.csv"),("Excel Files", "*.xlsx")))
-        
-        #Creating label that shows the path directory and name of first file, so user knows file was imported.
-        self.fileOne_label = ttk.Entry(self, text='')
-        self.fileOne_label.config(width=50)
-        self.fileOne_label.place(x=240, y=400)
-        self.fileOne_label.delete(0, 'end')
-        self.fileOne_label.insert(0, self.file)
-        self.fileOne_label.config(state='disabled')
-        
-        if self.file:
-            try:
-                self.df_one = pd.read_csv(self.file)
-            except:
-                self.df_one = pd.read_excel(self.file)
 
 if __name__ == "__main__":
     
