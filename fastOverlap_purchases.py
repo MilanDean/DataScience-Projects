@@ -48,7 +48,7 @@ class StartPage(tk.Frame):
         
         tk.Frame.__init__(self, parent)
         
-        label = tk.Label(self, text="Welcome to the Monkedia Purchase Behavior Application!", font=('Verdana', 16))
+        label = tk.Label(self, text="Welcome to the Purchase Behavior Application!", font=('Verdana', 16))
         label.place(x=115, y=150)
 
         button = ttk.Button(self, text="Purchase Analysis",
