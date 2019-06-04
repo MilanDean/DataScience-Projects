@@ -16,4 +16,5 @@ This famous [dataset](https://www.kaggle.com/c/titanic) from Kaggle was used for
 
 
 # [911 Calls](https://github.com/MilanDean/DataScience-Projects/blob/master/911%20Calls/DataCleaning911CallsCapstoneProject.ipynb)
+Please note: This way created about 3 months before uploaded to GitHub, and the date of creation in the repository is not a reflection of when this was produced.
 My first capstone project related to data science, *ever*. This was completed a while back as a requirement in order to continue to the second portion of my data science bootcamp. This notebook presents my understanding of data cleaning, visualization, and problem solving.
