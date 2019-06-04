@@ -62,6 +62,8 @@ class PurchaseAnalysis(tk.Frame):
         
         tk.Frame.__init__(self, parent)
         
+        self.label_list = []
+        
         label1 = ttk.Label(self, text="Purchase Analysis", font=('Verdana', 20))
         label1.place(x=275, y=150)
 
@@ -140,6 +142,8 @@ class PurchaseAnalysis(tk.Frame):
             self.resultLabel = ttk.Label(text=ans, font=('Calibri', 14))
             self.resultLabel.config(width=50)
             self.resultLabel.place(x=270, y=645)
+            
+            self.label_list.append(self.resultLabel)
 
         except:
             ans = 'Error: Please make sure correct files are properly formatted.'
@@ -148,10 +152,11 @@ class PurchaseAnalysis(tk.Frame):
             self.resultLabel.config(width=50)
             self.resultLabel.place(x=175, y=645)
             self.resultLabel.after(2000, lambda: self.resultLabel.destroy())
-            
+
     def clear(self):
-        #Ensures the result is destroyed when called - used on button click before changing frames.
-        self.resultLabel.destroy()
+        #Ensures the results are destroyed when called - used on button click before changing frames.
+        for label in self.label_list:
+            label.destroy()
 
 if __name__ == "__main__":
     
