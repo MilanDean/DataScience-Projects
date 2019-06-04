@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr  2 13:32:30 2019
+Created on Tue Jun  4 08:28:56 2019
 
 @author: Milan Dean
 """
@@ -49,7 +49,7 @@ class StartPage(tk.Frame):
         
         tk.Frame.__init__(self, parent)
         
-        label = tk.Label(self, text="Welcome to the Purchase Behavior Application!", font=('Verdana', 16))
+        label = tk.Label(self, text="Welcome to the Monkedia Purchase Behavior Application!", font=('Verdana', 16))
         label.place(x=115, y=150)
 
         button = ttk.Button(self, text="Purchase Analysis",
