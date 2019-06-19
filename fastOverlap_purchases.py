@@ -132,9 +132,12 @@ class PurchaseAnalysis(tk.Frame):
         value to a variable, stored in a label."""
         
         try:
+            
+            #Setting up two hashsets for comparison
             set_df1 = set((self.df_one['customer_id']))
             set_df2 = set((self.df_two['customer_id']))
             
+            #Intersect comparison between two sets with O(n) time complexity
             result = set_df1.intersection(set_df2)
             percent = str((round((len(result)/len(self.df_one['customer_id']))*100, 2)))
             ans = 'Resulting purchase overlap: ' + percent + '%'
