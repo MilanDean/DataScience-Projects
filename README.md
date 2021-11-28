@@ -1,4 +1,4 @@
-# DataScience-Projects
+# Data Science Projects
 This is a compilation of small projects I developed related to data analytics and machine learning.
 
 **Note**: This is a work in progress that I update when I have free time, and this repository does not represent the entirety of my understanding of data analytics and machine learning. Projects are in order from most recent commit to first commit.
